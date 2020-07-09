@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding:0px;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 2px solid rgb(122, 119, 119);
+
+}
+li{
+    
+    float: left;
+    border-right: 2px solid rgb(122, 119, 119);
+}
+li a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+li:hover{
+    background-color: white;
+}
+#logoimg{
+height:48;
+width:150;
+}
+.drop{
+    background-color: darkgray;
+    
+}
+#search_label{
+    float: right;
+    font-size: 23px;
+}
+#search_box{
+    float: right;
+    font-size: 23px;
+}
+#search_button{
+    
+    border-radius: 0;
+    background-color: springgreen;
+    padding: 7px;
+}

@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>Sell On VitKart</title>
+<link rel="stylesheet" type="text/css" href="sellform_css.css">
+<script src="sell_js.js"></script>
+</head>
+<body>
+  <ul class="drop">
+    <li><img src="reallogo.png" id="logoimg"></li>
+    
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Why VITKart?</a></li>
+    <li><a href="log_in.html">Log In</a></li>
+    <li><a href="#">More</a></li>
+    <li><a href="#">About Us</a></li>
+</ul>
+  <div class="formm">
+  <form id = "item-form" name="sellfm" method="POST" action="sellfm.php" enctype="multipart/form-data">
+    <br><br>
+    <label><b>Fill All the details correctly!</b></label>
+    <br><br><br>
+
+    <label>Product Code (unique):</label><input type="text" name="procode" id="procode"><br><br>
+    Product name :
+    <input type="text" name="product_name" id="proname"><br><br>
+    
+    Price:
+    <input type="number" name="price" id="cost"><br><br>
+    
+    Mobile number :
+    <input type ="text" name="mob_n" id= "contact"><br><br>
+    
+    WhatsApp Number:
+    <input type ="text" name="wa_no" id ="wano"><br><br>   
+    
+    Category:
+    <select name="category" id="category">
+      <option value="books">books</option>
+      <option value="room_accessory">room accessory</option>
+      <option value="stationary">stationary</option>
+      <option value="electronics">electronics</option>
+      <option value="wearables">wearables</option>
+      <option value="eatables">eatables</option>
+      <option value="other">other</option>
+    </select><br><br>
+    
+    Product description:
+    <textarea rows="7" cols="50" name="comment" form="item-form">
+    </textarea><br><br>
+    
+    Upload Image :<br>
+    <input type="file" value="upload image" name= "item_image" ><br><br><br>
+    
+    Do you accept terms and conditions:<br>
+    <a href="t&c.html">terms & conditions</a><br><br>
+    <input type="checkbox" name="tnc" value="accept" required>I have read T&C and  accept them   
+    <br><br><br><br><br>
+    <input type="submit" name="submit" id="submit" onclick="validate()">
+    <input type="reset" name="reset" id="reset">
+  </form> 
+</div>
+</body>
+</html>

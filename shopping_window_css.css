@@ -1,0 +1,119 @@
+body{
+    margin:0;
+    padding: 0;
+    background: url("blue_texture.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    
+}
+#headimg{
+    width: 55%;
+    height: 100px;
+    margin-left: 20%;
+
+}
+label{
+    color:whitesmoke;
+    margin-left: 12%;
+    
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 55px;
+    
+}
+.books img,.edibles img,.stationary img{
+    
+    height: 100px;
+    width: 130px;
+    margin-left: 10%;
+}
+.books,.edibles,.stationary,.advertisement{
+    background-color: black;
+    opacity: 85%;
+    padding: 15px;
+}
+.books:hover,.edibles:hover,.stationary:hover,.advertisement:hover{
+    opacity: 95%;
+}
+.advertisement{
+    color: whitesmoke;
+}
+button{
+    margin-left: 12%;
+    padding: 7px;
+    background-color: chocolate;
+    border-radius: 7px;
+    color: black;
+    font-weight: bold;
+}
+#more{
+    padding: 7px;
+    background-color: chocolate;
+    border-radius: 7px;
+    color: black;
+    font-weight: bold;
+    margin-left: 0;
+}
+
+#logoimg{
+    width: 150px;
+    height: 48px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 2px solid black;
+
+}
+.drop{
+    background-color: darkgray;
+    
+}
+
+li{
+    float: left;
+    border-right: 2px solid black;
+}
+
+li a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+li:hover{
+    background-color: white;
+}
+
+#search_label{
+    float: right;
+    font-size: 23px;
+}
+#search_box{
+    float: right;
+    font-size: 23px;
+}
+#search_button{
+    border-radius: 0;
+    background-color: springgreen;
+    padding: 7px;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+iframe{
+    width: 32%;
+    height: 300px;
+}

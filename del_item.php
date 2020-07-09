@@ -1,0 +1,15 @@
+<?php
+    session_start();
+    $code=$_POST['del_kar'];
+    $q=$_SESSION['cart'][$code]['qty'];
+    if($q==1)
+    {
+        unset($_SESSION['cart'][$code]);
+        header('location:veiw_cart.php');
+    }
+    else{
+        $_SESSION['cart'][$code]['qty']=($_SESSION['cart'][$code]['qty'])-1;
+        $_SESSION['cart'][$code]['total']=$_SESSION['cart'][$code]['price']*$_SESSION['cart'][$code]['qty'];
+        header('location:veiw_cart.php');
+    }
+?>

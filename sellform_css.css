@@ -1,0 +1,91 @@
+.formm{
+    width: 500px;
+    height: 850px;
+    background-color: black;
+    color: aliceblue;
+    top: 12%;
+    left: 5%;
+    position: absolute;
+    opacity: 70%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 50px;
+   padding-right: 50px;
+   border-radius: 25px;
+}
+.formm:hover{
+    opacity: 90%;
+}
+
+#procode{
+    margin-left: 10px;
+}
+#proname{
+    margin-left: 60px;
+}
+#cost{
+    margin-left: 119px; 
+}
+#contact{
+    margin-left: 49px;
+}
+#wano{
+    margin-left: 27px;
+}
+#category{
+    margin-left: 120px;
+}
+#reset{
+    margin-left:80px ;
+}
+body{
+    background:url(bg2.jpg)no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+    padding:0px;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 2px solid rgb(122, 119, 119);
+
+}
+li{
+    
+    float: left;
+    border-right: 2px solid rgb(122, 119, 119);
+}
+li a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+li:hover{
+    background-color: white;
+}
+#logoimg{
+height:48;
+width:150;
+}
+
+#submit{
+    background-color: chartreuse;
+    padding: 7px;
+    border-radius: 7px;
+}
+#reset{
+    background-color: red;
+    padding: 7px;
+    border-radius: 7px;
+}
+.drop{
+    background-color: darkgray;
+    
+}

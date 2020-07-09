@@ -1,0 +1,68 @@
+<html>
+<head>
+    <title>sign up</title>
+    <link rel="stylesheet" type="text/css" href="signup_css.css">
+    <script src="signup_sup.js"></script>
+</head>
+<body>
+    
+    <div>
+            
+        <ul class="drop">
+            <li><img src="reallogo.png" id="logoimg"></li>
+            
+            <li><a href="home.html">Home</a></li>
+            <li><a href="whyvitkart.html">Why VITKart?</a></li>
+            <li><a href="log_in.html">Log In</a></li>
+            <li><a href="#">More</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </div>
+    
+    <div class="info">
+        <h1>Welcome to VITKart</h1><br>
+        <h3>Sign Up for Free</h3>
+        <form name="myform" action="signup_php.php" method="post"  enctype="multipart/form-data">
+            <fieldset>
+                <legend>Personal Information</legend>
+            <label><b>All Fields are necessary!</b></label><br><br>
+            <input type="text" placeholder="First Name" name="fname" required><input type="text" placeholder="Last Name" name="lname" id="lastname" required><br><br>
+            <input type="text" placeholder="Registration number" name="regno" required>
+            <input type="text" placeholder="Contact Number" maxlength="10" id="cno" name="contact" required><br><br>
+            <input type="text" placeholder="E-mail" size="55" name="mail" required><br><br>
+            <input type="text" placeholder="Proctor Name" name="procname" required><input type="text" placeholder="Proctor Contact No." id="pcno" name="proccon" required><br><br>
+            <input type="radio" value="male" name="gender"><label>Male</label> <input type="radio" value="female" name="gender"><label>Female</label>
+            <label id="block">Block</label><select id="blockname" name="hostelblock">
+                <option value="A">A</option>
+                <option value="B">B</option >
+                <option value="C">C</option>
+                <option value="dayscholar">Day Scholar</option>
+            </select><br><br>
+            
+            <label>Password</label><input type="password" placeholder="Case Sensitive" id="pwd" name="pass" required><br><br>
+            <label>Re-Type Password</label><input type="password" placeholder="Case Sensittve" id="repwd" name="repass" id="repwd" required><br><br>
+            
+            <label>Security Question</label><select id="security_question" name="sec_que">
+                <option value="nickname">Your Nickname</option>
+                <option value="petname">Your Pet's Name</option>
+                <option value="birthplace">Birth Place</option>
+            </select><br><br>
+            <label>Answer</label><input type="text" name="sec_ans" id="security_answer" placeholder="Case Sensitive" required>
+            </fieldset> <br><br>
+
+           
+           
+            <fieldset>
+                <legend>Upload Files</legend><br>
+                <label>Upload image of any one:</label><input type="radio" value="aadhar" name="kyc_type" id="aadharcard">AAdhar Card
+                <input type="radio" value="pancard" name="kyc_type"><label>PAN Card</label><br><br>
+                <label>Choose Image</label><input type="file" id="proof" name="kyc"><br><br>
+                
+            </fieldset><br>
+            <label><a href="#">Terms and Conditions</a></label><input type="radio" value="agree">I agree<input type="radio" value="disagree">Disagree<br><br>
+            <button type="submit" id="submitbutton" name="submit">Create Account</button> <button type="reset" id="resetbutton">Reset</button>
+           
+        </form>
+    </div>
+</body>
+</html>

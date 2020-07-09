@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Password Reset</title>
+<link rel="icon" href="logo.jpg" type="image/gif" sizes="16x16">
+<link rel="stylesheet" type="text/css" href="newpass.css">
+</head>
+<body>
+<p style="color:red;position:absolute;top:30;left:600;font-size:50px">Security is must!</p>
+<div class="passbox">
+ <form action="setpass.php" method="post">
+            <p>Email</p>
+            <input type="text" name="email" placeholder="Email" id="email" required>
+            <p>New Password</p>
+            <input type="password" name="password2" placeholder="Enter New Password" id="password2" required>
+            <p>Confirm Password</p>
+            <input type="password" name="password" placeholder="Confirm new password" id="password" required>
+            <input type="submit" name="Submit" value="Submit"><br><br>
+            <a href="log_in.html">Go back to login page</a>
+</form>
+</div>
+</body>
+</html>

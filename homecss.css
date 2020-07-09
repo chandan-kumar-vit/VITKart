@@ -1,0 +1,33 @@
+html
+{
+    /*background-color: burlywood;*/
+    background-image: url("vit1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1
+{
+    font-family:Georgia,serif;
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+p
+{
+    font-family: "Bookman Old Style";
+    font-size: 20px;
+    margin-top: .5em;
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+}
+a:link
+{
+    color: lightskyblue;
+}
+a:hover
+{
+    color: darkgreen;
+}

@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('bg3.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+}
+.verification{
+    padding: 20px;
+    background-color: black;
+    width: 30%;
+    transform: translate(100%,100%);
+    color: blanchedalmond;
+    opacity: 85%;
+    border-radius: 9px;
+}
+.verification:hover{
+    opacity: 95%;
+}
+#otp{
+    padding: 5px;
+    margin-left: 20px;
+}
+#lb{
+    font-weight: bold;
+}
+#sub{
+    padding: 7px;
+    background-color: greenyellow;
+    font-weight: bold;
+    border-radius: 7px;
+    margin-left: 22%;
+}
+#resend{
+    padding: 7px;
+    background-color: red;
+    font-weight: bold;
+    border-radius: 7px;
+    margin-left: 5%;
+}

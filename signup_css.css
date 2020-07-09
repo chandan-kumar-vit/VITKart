@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('bg2.jpg');
+    background-size: cover;
+    background-repeat: repeat-y;
+    
+}
+#logoimg{
+    width: 150px;
+    height: 48px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 2px solid black;
+
+}
+.drop{
+    background-color: darkgray;
+    
+}
+
+li{
+    float: left;
+    border-right: 2px solid black;
+}
+
+li a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+li:hover{
+    background-color: white;
+}
+h1,h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.info{
+
+    width: 500px;
+    height: 900px;
+    background-color: black;
+    color: aliceblue;
+    top: 10%;
+    left: 30%;
+    position: absolute;
+    opacity: 70%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 50px;
+   padding-right: 50px;
+   border-radius: 25px;
+}
+.info:hover{
+    opacity: 90%;
+}
+fieldset{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#lastname{
+    margin-left: 60px;
+}
+#cno{
+    margin-left: 57px;
+}
+#pcno{
+    margin-left: 60px;
+}
+#block{
+    margin-left: 90px;
+}
+#blockname{
+    margin-left: 25px;
+}
+button{
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+#submitbutton{
+    background-color: chartreuse;
+    margin-left: 140px;
+}
+#resetbutton{
+    background-color: red;
+    margin-left: 40px;
+}
+legend{
+    border-top: darkgray solid;
+    border-left: darkgray solid;
+    border-right: darkgray solid;
+    border-radius: 7px;
+}
+input:focus{
+    background-color: wheat;
+}
+#pwd{
+    margin-left: 160px;
+}
+#repwd{
+    margin-left: 100px;
+}
+#aadharcard{
+    margin-left: 20px;
+}
+#proof{
+    margin-left: 85px;
+}
+#dp{
+    margin-left: 8px;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    background-color: yellow;
+}
+#security_question{
+    margin-left: 103px;
+}
+#security_answer{
+    margin-left: 168px;
+}

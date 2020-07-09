@@ -1,0 +1,31 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url('bg4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.pay_details{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 10px;
+    padding-left: 5%;
+    padding-bottom: 3%;
+    width: 30%;
+    transform: translate(97%);
+    border-radius: 7px;
+}
+#confirm{
+    padding:7px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: greenyellow;
+}
+#back{
+    padding: 7px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: red;
+    margin-left: 35px;
+}
